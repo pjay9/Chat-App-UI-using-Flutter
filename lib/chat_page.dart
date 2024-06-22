@@ -54,12 +54,12 @@ class ChatPage extends StatelessWidget {
               children: [
                 ChatBubble(
                   message: 'Hello',
-                  imageUrl: 'assets/beach.jpg', // Replace with your image asset
+                  imageUrl: 'assets/beach.jpg',
                   isSender: false,
                 ),
                 ChatBubble(
                   message: 'hi',
-                  imageUrl: 'assets/beach.jpg', // Replace with your image asset
+                  imageUrl: 'assets/beach.jpg', 
                   isSender: true,
                 ),
                 ChatBubble(
